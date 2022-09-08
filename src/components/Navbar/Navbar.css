@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  gap: 122px;
+  padding: 0 20px;
+  margin-top: 26px;
+}
+.logo {
+  width: 55px;
+  height: 55px;
+  margin: 0 15px;
+}
+.nav-links {
+  display: flex;
+  gap: 48px;
+  font-size: 24px;
+  align-items: flex-end;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #3a1212;
+}
+.nav-links a:first-child {
+  border-bottom: 3px solid #ff2625;
+  text-decoration: none;
+  color: #3a1212;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    gap: 40px;
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  }
+}
